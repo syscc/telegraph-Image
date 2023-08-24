@@ -18,6 +18,12 @@
 </head>
 
 <body>
+<script>
+    $.getJSON("https://api.ipify.org?format=json", function(data) {
+        $("#ipinfo").text(data.ip);
+    });
+</script>
+    
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <div class="container">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
