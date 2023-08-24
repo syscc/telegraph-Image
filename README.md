@@ -1,7 +1,7 @@
 # telegraph-Image
 
 
-### [Demo](https://img.131213.xyz/)
+### [Demo](https://img.aazze.com/)
 
 ### 开发计划
 - [x] 后台管理
